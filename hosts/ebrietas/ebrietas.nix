@@ -36,7 +36,6 @@ in {
       self.hosts.ebrietas.services.seatd
       self.hosts.ebrietas.services.sysklogd
 
-
       #ebrietasSystem
       self.hosts.ebrietas.system.boot
       self.hosts.ebrietas.system.fileSystems
