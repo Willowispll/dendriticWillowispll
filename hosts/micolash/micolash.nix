@@ -23,7 +23,6 @@ in {
       self.hosts.micolash.services.dhcpcd
       self.hosts.micolash.services.getty
       self.hosts.micolash.services.keventd
-      self.hosts.micolash.services.ly
       self.hosts.micolash.services.nix-daemon
       self.hosts.micolash.services.polkit
       self.hosts.micolash.services.seatd
