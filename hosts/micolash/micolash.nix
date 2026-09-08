@@ -18,10 +18,11 @@ in {
       self.hosts.micolash.programs.coreutils
       self.hosts.micolash.programs.gnome-keyring
       self.hosts.micolash.programs.limine
-      self.hosts.micolash.programs.niri
       self.hosts.micolash.programs.pipewire
       self.hosts.micolash.programs.sudo
       self.hosts.micolash.programs.v2rayn
+      self.hosts.micolash.programs.vxwm
+      self.hosts.micolash.programs.xorg
 
       #micolashServices
       self.hosts.micolash.services.chronyd
@@ -29,6 +30,7 @@ in {
       self.hosts.micolash.services.dhcpcd
       self.hosts.micolash.services.getty
       self.hosts.micolash.services.keventd
+      self.hosts.micolash.services.ly
       self.hosts.micolash.services.nix-daemon
       self.hosts.micolash.services.polkit
       self.hosts.micolash.services.seatd
@@ -46,6 +48,7 @@ in {
     hjemModules = [
       #hjemModules
       self.hjemModules.fastfetch
+      self.hjemModules.picom
     ];
   };
 }
