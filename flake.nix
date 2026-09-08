@@ -2,16 +2,18 @@
   description = "Willowispll's nixos+finix dendritic flake";
 
   inputs = {
-    #flakeInputs
-    nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
+    #flake
     flake-parts.url = "github:hercules-ci/flake-parts";
     import-tree.url = "github:vic/import-tree";
 
-    #finixInputs
+    #nixpkgs
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
+
+    #finix
     finix.url = "github:finix-community/finix?ref=pull/239/head";
     finix-community-modules.url = "github:finix-community/community-modules";
 
-    #hjemInputs
+    #hjem
     hjem = {
       url = "github:feel-co/hjem";
       inputs.nixpkgs.follows = "nixpkgs";

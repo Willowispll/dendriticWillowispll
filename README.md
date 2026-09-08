@@ -15,23 +15,29 @@ Willowispll's flake-based NixOS/finix configurations for personal devices.
 .
 └── hosts
     ├── ebrietas
-    │   ├── features
-    │   ├── hjem
-    │   ├── programs
-    │   ├── services
-    │   └── system
+    │   ├── features
+    │   ├── hjem
+    │   ├── programs
+    │   ├── services
+    │   └── system
+    ├── micolash
+    │   ├── features
+    │   ├── programs
+    │   ├── services
+    │   └── system
     └── shared
         └── users
 
-10 directories
+14 directories
 
 [willowispll@ebrietas:~/dendriticWillowispll]$
 ```
 
 ## hosts
-| host     | os    | init  | wm   | bootloader | description |
-|----------|-------|-------|------|------------|-------------|
-| ebrietas | finix | finit | vxwm | limine     | main device |
+| host     | os    | init  | wm   | bootloader | description       |
+|----------|-------|-------|------|------------|-------------------|
+| ebrietas | finix | finit | vxwm | limine     | main device       |
+| micolash | finix | finit | -    | limine     | laptop, no wm yet |
 
 > all host names are inspired by [bloodborne](https://en.wikipedia.org/wiki/Bloodborne).
 
