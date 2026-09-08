@@ -8,12 +8,18 @@ in {
       #micolashFeatures
       self.hosts.micolash.features.environment
       self.hosts.micolash.features.finit
+      self.hosts.micolash.features.fonts
+      self.hosts.micolash.features.hjem
       self.hosts.micolash.features.nixpkgs
+      self.hosts.micolash.features.xdg
 
       #micolashPrograms
       self.hosts.micolash.programs.bash
       self.hosts.micolash.programs.coreutils
+      self.hosts.micolash.programs.gnome-keyring
       self.hosts.micolash.programs.limine
+      self.hosts.micolash.programs.niri
+      self.hosts.micolash.programs.pipewire
       self.hosts.micolash.programs.sudo
       self.hosts.micolash.programs.v2rayn
 
@@ -35,6 +41,11 @@ in {
       self.hosts.micolash.system.networking
       self.hosts.micolash.system.time
       self.hosts.micolash.system.user
+    ];
+
+    hjemModules = [
+      #hjemModules
+      self.hjemModules.fastfetch
     ];
   };
 }
