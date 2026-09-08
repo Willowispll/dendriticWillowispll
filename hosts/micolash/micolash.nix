@@ -18,11 +18,11 @@ in {
       self.hosts.micolash.programs.coreutils
       self.hosts.micolash.programs.gnome-keyring
       self.hosts.micolash.programs.limine
+      self.hosts.micolash.programs.niri
       self.hosts.micolash.programs.pipewire
       self.hosts.micolash.programs.sudo
       self.hosts.micolash.programs.v2rayn
-      self.hosts.micolash.programs.vxwm
-      self.hosts.micolash.programs.xorg
+      self.hosts.micolash.programs.xwayland-satellite
 
       #micolashServices
       self.hosts.micolash.services.chronyd
