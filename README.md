@@ -37,7 +37,7 @@ Willowispll's flake-based NixOS/finix configurations for personal devices.
 | host     | os    | init  | wm   | bootloader | description       |
 |----------|-------|-------|------|------------|-------------------|
 | ebrietas | finix | finit | vxwm | limine     | main device       |
-| micolash | finix | finit | -    | limine     | laptop, no wm yet |
+| micolash | finix | finit | -    | limine     | laptop            |
 
 > all host names are inspired by [bloodborne](https://en.wikipedia.org/wiki/Bloodborne).
 
