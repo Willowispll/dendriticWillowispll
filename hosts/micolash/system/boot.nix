@@ -6,6 +6,7 @@
         "kvm-amd"
       ];
       kernelParams = ["loglevel=3"];
+      kernelPackages = pkgs.linuxPackages_latest;
       initrd.availableKernelModules = [
         "nvme"
         "xhci_pci"
