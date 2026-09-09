@@ -2,7 +2,7 @@
   flake.hosts.micolash.features.environment = {pkgs, ...}: {
     environment.systemPackages = with pkgs; [
       alacritty
-      Waytrogen
+      waytrogen
       fuzzel
       brave-origin
       xdg-utils
