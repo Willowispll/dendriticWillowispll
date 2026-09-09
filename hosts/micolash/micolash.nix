@@ -29,6 +29,7 @@ in {
       self.hosts.micolash.services.dbus
       self.hosts.micolash.services.dhcpcd
       self.hosts.micolash.services.getty
+      self.hosts.micolash.services.iwd
       self.hosts.micolash.services.keventd
       self.hosts.micolash.services.ly
       self.hosts.micolash.services.nix-daemon
